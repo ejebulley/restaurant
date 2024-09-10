@@ -1,0 +1,239 @@
+nav {
+
+    /* background-color: rgb(235, 213, 213);  */
+    background-color: #E1BD4C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    height: 10vh;
+    padding-left: 60px;
+    color: black;
+
+}
+
+.nav-list a {
+    color: #000;
+}
+
+.nav-items {
+    display: flex;
+    gap: 25px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+header {
+    background-image: url(/assets/images/burger\ \(9\).jpg);
+    background-color: #000;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-bottom: 50px; */
+    margin-bottom: 40px;
+}
+
+.section-button1 {
+    background-color: #f10a57;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.section-button1:hover {
+    background-color: #744106;
+    color: white;
+}
+
+
+.section-button1 a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.section-button2 {
+    background-color: #f10a57;
+    border: none;
+    color: white;
+    /* padding: 20px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+
+
+}
+
+.arrow right {
+    border: solid rgb(247, 235, 235);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+
+}
+
+.section-button2:hover {
+    background-color: #744106;
+    color: white;
+}
+
+
+.section-button2 a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+
+.content-section {
+    color: white;
+    text-align: left;
+    line-height: 1.5rem;
+    padding-top: 4rem;
+    padding-left: 7rem;
+    align-items: left;
+
+}
+
+.content-section p {
+    text-align: justify;
+    margin-bottom: 35px;
+}
+
+.content-section h4 {
+    background-color: #E1BD4C;
+    display: inline-block;
+    margin-bottom: 35px;
+    padding: 5px;
+}
+
+.content-section h1 {
+
+    margin-bottom: 35px;
+}
+
+
+.food-section {
+    background-color: #e4d9d9;
+    padding: 70px;
+    margin: 70px;
+}
+
+.header-text {
+    font-weight: bold;
+    color: #3d3b3b;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .sub-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 10px;
+    align-items: center;
+    /* width: 70%; */
+
+
+/* .text-image{
+    width: 90%;
+}
+
+.text-container{
+    padding: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+   
+}
+
+.text-image2{
+    padding: 10px;
+    width: 70%;
+    margin: 10px;
+}
+
+.text-container2{
+    /* padding: 20px; */
+/* padding-bottom: 10px; */
+/* padding-right: -500px; */
+
+
+
+
+/* .sub-container{
+    width: 100%;
+    padding-top: 50px;
+    padding-right: 100px;
+}   */
