@@ -290,3 +290,73 @@ header {
 .menu-food h1 {
     text-align: center;
 }
+
+
+.reservation {
+    background-image: url(../images/burger\ \(11\).jpg);
+    /* padding: %;
+    margin: 2%; */
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 5%;
+}
+
+.reservation img {
+
+    background-position: center;
+    background-repeat: none;
+    background-size: contain;
+    background-attachment: fixed;
+    opacity: 1;
+    /* width: 90%; */
+
+}
+
+
+.reservation-text {
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+    line-height: 1.2;
+}
+
+
+.reservation-text h3 {
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    text-align: justify;
+
+}
+
+.grid-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 5%;
+    margin: 5%;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #000;
+    width: 80%;
+    height: 60vh;
+}
+
+.inputs-item {
+    padding: 2rem;
+    margin: 2rem;
+    /* background-color: #000; */
+}
+
+.inputs input {
+    padding: 10px;
+    margin: 10px;
+}
