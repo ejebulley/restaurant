@@ -27,7 +27,8 @@ nav {
 
 
 header {
-    background-image: url(/assets/images/burger\ \(7\).jpg);
+    /* background-image: url(/assets/images/burger\ \(7\).jpg); */
+    background-image: url(../images/burger\ \(7\).jpg);
     background-color: #000;
     height: 100vh;
     background-position: center;
@@ -260,7 +261,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/images/burger\ \(8\).jpg);
+    /* background-image: url(/.assets/images/burger\ \(8\).jpg); */
+    background-image: url(../images/burger\ \(8\).jpg);
     width: 90%;
     background-position: center;
     background-repeat: no-repeat;
