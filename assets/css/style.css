@@ -27,9 +27,9 @@ nav {
 
 
 header {
-    background-image: url(/assets/images/burger\ \(9\).jpg);
+    background-image: url(/assets/images/burger\ \(7\).jpg);
     background-color: #000;
-    height: 90vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,10 +81,36 @@ header {
     font-size: 15px;
     transition-duration: 0.4s;
     cursor: pointer;
-
-
-
 }
+
+
+.section-button3 {
+    background-color: #f10a57;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.section-button3:hover {
+    background-color: #744106;
+    color: white;
+}
+
+
+.section-button3 a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
 
 .arrow right {
     border: solid rgb(247, 235, 235);
@@ -169,11 +195,202 @@ header {
 }
 
 
+.main-section {
+    /* padding-top: -50px; */
+    padding-bottom: 3px;
+    /* background-color: rgb(249, 252, 255); */
+}
+
+.main-container {
+    padding: 15%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 10px;
+}
 
 
+.main-container h1 {
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding-top: 20px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+    margin-bottom: 3rem;
+    
+
+}
+
+.flex-container h2 {
+    margin-bottom: 0.5rem;
+}
+
+.text-container {
+    margin-top: 5%;
+    width: 50%;
+    padding: 1%;
+}
+
+.text-container p {
+    line-height: 1.2;
+    color: rgb(84, 82, 82);
+    margin-bottom: 1.2rem;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.image-section {
+    width: 100%;
+}
+
+.food-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/images/burger\ \(8\).jpg);
+    width: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
+    border-radius: 20px;
+    border: 0px solid;
+    box-shadow: 3px 10px gainsboro;
+    
+}
 
 
+.food-section a {
+    background-color: #f10a57;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 20px;
+}
 
+
+.food-section a:hover {
+    background-color: #744106;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menu-food h1{
+    text-align: center;
+}
+/* 
+.food-section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/images/Pizza\ 2.jpg);
+    width: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    border-radius: 20px;
+    border: 0px solid;
+    box-shadow: 3px 10px gainsboro;
+    
+}
+
+
+.food-section1 a {
+    background-color: #f10a57;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.food-section1 a:hover {
+    background-color: #744106;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+} */
+/* .section-container {
+    padding: 50px; 
+    box-sizing: border-box;
+    text-align: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+#services .service-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    /* width: 100%; */
+    margin: 50px;
+}
+
+.service-item {
+    background: #f4f4f4;
+    padding: 20px;
+    margin-left: 30px;
+    width: 30%;
+    border-radius: 8px;
+    gap: 40px;
+    text-align: center;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+#projects .project-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.project-item {
+    background: #ccc;
+    padding: 50px;
+    width: 30%;
+    border-radius: 8px;
+} 
 
 
 
