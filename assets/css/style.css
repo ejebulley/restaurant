@@ -27,15 +27,16 @@ nav {
 
 
 header {
-    /* background-image: url(/assets/images/burger\ \(7\).jpg); */
-    background-image: url(../images/burger\ \(7\).jpg);
-    background-color: #000;
+    background-image: url(/assets/images/burger\ \(7\).jpg);
+    /* background-image: url(../images/burger\ \(7\).jpg); */
+    /* background-image: url(../images/burger\ \(7\).jpg); */
+    /* background-color: #000; */
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /* padding-bottom: 50px; */
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .section-button1 {
@@ -225,7 +226,7 @@ header {
     gap: 20px;
     text-align: justify;
     margin-bottom: 3rem;
-    
+
 
 }
 
@@ -257,7 +258,7 @@ header {
     width: 100%;
 }
 
-.food-section{
+.food-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,7 +272,7 @@ header {
     border-radius: 20px;
     border: 0px solid;
     box-shadow: 3px 10px gainsboro;
-    
+
 }
 
 
@@ -298,9 +299,10 @@ header {
     font-size: 15px;
 }
 
-.menu-food h1{
+.menu-food h1 {
     text-align: center;
 }
+
 /* 
 .food-section1 {
     display: flex;
@@ -392,7 +394,7 @@ h2 {
     padding: 50px;
     width: 30%;
     border-radius: 8px;
-} 
+}
 
 
 
