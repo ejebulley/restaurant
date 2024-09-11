@@ -27,7 +27,7 @@ nav {
 
 
 header {
-    background-image: url(../images/burger\ \(2\).jpg);
+    background-image: url(../images/burger\ \(7\).jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -185,14 +185,6 @@ header {
     line-height: 1.6;
 }
 
-.content-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px;
-}
-
 
 .main-section {
     /* padding-top: -50px; */
@@ -259,7 +251,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url(/.assets/images/burger\ \(8\).jpg); */
     background-image: url(../images/burger\ \(8\).jpg);
     width: 90%;
     background-position: center;
@@ -300,98 +291,6 @@ header {
     text-align: center;
 }
 
-/* 
-.food-section1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/assets/images/Pizza\ 2.jpg);
-    width: 90%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10%;
-    border-radius: 20px;
-    border: 0px solid;
-    box-shadow: 3px 10px gainsboro;
-    
-}
-
-
-.food-section1 a {
-    background-color: #f10a57;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    margin: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    font-size: 20px;
-}
-
-
-.food-section1 a:hover {
-    background-color: #744106;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-} */
-/* .section-container {
-    padding: 50px; 
-    box-sizing: border-box;
-    text-align: center;
-    gap: 50px;
-    margin-bottom: 20px;
-    width: 70%;
-}
-
-h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-/* Services Section */
-#services .service-list {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    /* width: 100%; */
-    margin: 50px;
-}
-
-.service-item {
-    background: #f4f4f4;
-    padding: 20px;
-    margin-left: 30px;
-    width: 30%;
-    border-radius: 8px;
-    gap: 40px;
-    text-align: center;
-}
-
-.service-item h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-/* Projects Section */
-#projects .project-gallery {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-}
-
-.project-item {
-    background: #ccc;
-    padding: 50px;
-    width: 30%;
-    border-radius: 8px;
-}
 
 
 
