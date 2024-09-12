@@ -188,6 +188,7 @@ header {
 
 .main-section {
     /* padding-top: -50px; */
+    padding-top: 15px;
     padding-bottom: 3px;
     /* background-color: rgb(249, 252, 255); */
 }
@@ -291,15 +292,36 @@ header {
     text-align: center;
 }
 
+#section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #E1BD4C;
+    padding: 1%;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: black;
+    display: block;
+}
+
+.awards{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    /* width: 100%; */
+    /* align-items: center; */
+    padding:3%;
+}
 
 .reservation {
-    background-image: url(../images/burger\ \(11\).jpg);
-    /* padding: %;
-    margin: 2%; */
+    background-image: url(../images/burger\ \(7\).jpg); 
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 10px;
     margin: 5%;
 }
+
 
 .reservation img {
 
@@ -307,7 +329,7 @@ header {
     background-repeat: none;
     background-size: contain;
     background-attachment: fixed;
-    opacity: 1;
+    opacity: 8;
     /* width: 90%; */
 
 }
@@ -324,8 +346,12 @@ header {
 .reservation-text h3 {
     text-transform: uppercase;
     padding-bottom: 2rem;
-    text-align: justify;
+    text-align: center;
+    line-height: 1.7;
 
+}
+.reservation-text p{
+    text-align: justify;
 }
 
 .grid-content {
@@ -345,7 +371,8 @@ header {
     justify-content: center;
     padding: 1rem;
     margin: 2rem;
-    background-color: #000;
+    background-color: #000; 
+    /* background-color: #E1BD4C; */
     width: 80%;
     height: 60vh;
 }
@@ -359,4 +386,96 @@ header {
 .inputs input {
     padding: 10px;
     margin: 10px;
+}
+
+
+.awards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    align-items: center;
+}
+
+.grid-parts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+
+}
+
+.grid-parts img{
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 3%;
+    width: 5%;
+}
+
+.part{
+    height: 300px;
+    min-width: 280px;
+    /* padding: 3%; */
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+.one{
+    background-image: url(../images/dish-2\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2%;
+    /* background-color: #000; */
+    background-color:white;
+}
+
+.two{
+    background-image: url(../images/dish-1\ \(1\).png);
+    background-position: center;
+    background-repeat: none;
+    background-size: contain;
+    width: 2%;
+    background-color:white;
+}
+
+.three{
+    /* background-color: #f10a57;  */
+    background-image: url(../images/dish-3\ \(1\).png);
+    background-position: center;
+    background-repeat: none;
+    background-size: contain;
+    width: 2%;
+    background-color:white;
+}
+
+
+.footer{
+    background-color:white;
+    height: 30vh;
+    color: black;
+    padding: auto;
+    text-align: center;
+    line-height: 1.6;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+.footer h3{
+    padding-bottom: 1rem;
+}
+.footer h4{
+    padding-bottom: 1rem;
+}
+
+.socials{
+    width: 2rem;
+    padding: 10px;
+}
+
+.contact{
+    padding-bottom: 3rem;
 }
