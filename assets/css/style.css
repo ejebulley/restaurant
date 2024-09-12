@@ -298,24 +298,54 @@ header {
     align-items: center;
     text-align: center;
     background-color: #E1BD4C;
-    padding: 1%;
-    margin-left: 500px;
-    margin-right: 500px;
+    padding: 20px;
+    margin-left: 550px;
+    margin-right: 550px;
     color: black;
     display: block;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
-.awards{
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: space-around;
-    /* width: 100%; */
-    /* align-items: center; */
-    padding:3%;
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
 }
+
+.slider {
+    padding-top: 5%;
+    padding-bottom: 4%;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: center;
+    width: auto;
+}
+
+.slide-track {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+
+.slider .slide {
+    height: 100px;
+    width: 250px;
+}
+
+
+
+
 
 .reservation {
-    background-image: url(../images/burger\ \(7\).jpg); 
+    background-image: url(../images/burger\ \(7\).jpg);
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 10px;
@@ -350,7 +380,8 @@ header {
     line-height: 1.7;
 
 }
-.reservation-text p{
+
+.reservation-text p {
     text-align: justify;
 }
 
@@ -371,7 +402,7 @@ header {
     justify-content: center;
     padding: 1rem;
     margin: 2rem;
-    background-color: #000; 
+    background-color: #000;
     /* background-color: #E1BD4C; */
     width: 80%;
     height: 60vh;
@@ -389,7 +420,7 @@ header {
 }
 
 
-.awards{
+.awards {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -397,17 +428,17 @@ header {
     align-items: center;
 }
 
-.grid-parts{
+.grid-parts {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    
-    
+
+
 
 }
 
-.grid-parts img{
+.grid-parts img {
     background-position-x: left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -415,67 +446,73 @@ header {
     width: 5%;
 }
 
-.part{
+.part {
     height: 300px;
     min-width: 280px;
     /* padding: 3%; */
     margin-top: 2%;
     margin-bottom: 2%;
-    
+
 }
 
-.one{
+.one {
     background-image: url(../images/dish-2\ \(1\).png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     width: 2%;
     /* background-color: #000; */
-    background-color:white;
+    background-color: white;
 }
 
-.two{
+.two {
     background-image: url(../images/dish-1\ \(1\).png);
     background-position: center;
     background-repeat: none;
     background-size: contain;
     width: 2%;
-    background-color:white;
+    background-color: white;
 }
 
-.three{
+.three {
     /* background-color: #f10a57;  */
     background-image: url(../images/dish-3\ \(1\).png);
     background-position: center;
     background-repeat: none;
     background-size: contain;
     width: 2%;
-    background-color:white;
+    background-color: white;
 }
 
 
-.footer{
-    background-color:white;
-    height: 30vh;
-    color: black;
-    padding: auto;
+.footer-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    line-height: 1.7;
     text-align: center;
-    line-height: 1.6;
-    padding-top: 1%;
-    padding-bottom: 4%;
-}
-.footer h3{
-    padding-bottom: 1rem;
-}
-.footer h4{
-    padding-bottom: 1rem;
-}
-
-.socials{
-    width: 2rem;
-    padding: 10px;
-}
-
-.contact{
     padding-bottom: 3rem;
+}
+
+.contact h3{
+    padding-bottom: 2px;
+
+}
+.contact img{
+    width: 15px;
+}
+
+.socials h3{
+    padding-bottom: 20px;
+}
+
+.social-icons{
+    padding-left: 2rem;
+}
+
+.socials img{
+    background-color: white;
+    width: 20px;
+
 }
