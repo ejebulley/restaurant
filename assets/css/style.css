@@ -27,13 +27,14 @@ nav {
 
 
 header {
-    background-image: url(../images/burger\ \(7\).jpg);
-    height: 100vh;
-    background-position: center;
+    background-image: url(../images/burger\ \(8\).jpg);
+    height: 90vh; 
+    background-position: contain;
     background-repeat: no-repeat;
     background-size: cover;
     /* padding-bottom: 50px; */
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .section-button1 {
@@ -252,7 +253,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/burger\ \(8\).jpg);
+    background-image: url(../images/burger\ \(1\).jpg);
     width: 90%;
     background-position: center;
     background-repeat: no-repeat;
@@ -313,7 +314,7 @@ header {
         transform: translateX(0);
     }
 
-    100% {
+    50% {
         transform: translateX(calc(-250px * 7));
     }
 }
